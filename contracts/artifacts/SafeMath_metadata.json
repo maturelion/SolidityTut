@@ -1,0 +1,36 @@
+{
+	"compiler": {
+		"version": "0.4.17+commit.bdeb9e52"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {},
+			"title": "SafeMath"
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Flash.sol": "SafeMath"
+		},
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Flash.sol": {
+			"keccak256": "0xa0fdbf1d7e2a7a9e733fe394fce1359e44c98409cadfec8de9f6ab057dbd7812",
+			"urls": [
+				"bzzr://388be883e64be2716942563b5b86bb3816b2dd5c3dfcc4e52185a366a31c1cdf"
+			]
+		}
+	},
+	"version": 1
+}

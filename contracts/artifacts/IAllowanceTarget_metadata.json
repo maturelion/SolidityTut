@@ -1,0 +1,92 @@
+{
+	"compiler": {
+		"version": "0.6.0+commit.26b70077"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "completeSetSpender",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_target",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes",
+						"name": "_callData",
+						"type": "bytes"
+					}
+				],
+				"name": "executeCall",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "resultData",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_newSpender",
+						"type": "address"
+					}
+				],
+				"name": "setSpenderWithTimelock",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "teardown",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/IAllowanceTarget.sol": "IAllowanceTarget"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/IAllowanceTarget.sol": {
+			"keccak256": "0x78e1c9a2f4842cbe9a4b97732130f642bcd97f026bee8e57feecbaf0138df67a",
+			"urls": [
+				"bzz-raw://9ba32b6ef23331eeb3acd3a457c7c18cca9708d5fedd8a01532c2b9655dcc1a1",
+				"dweb:/ipfs/Qmcs1aRs3LwwDNpL5jf7PsxDCdKGKCBeHejGKbzfBRRhSb"
+			]
+		}
+	},
+	"version": 1
+}

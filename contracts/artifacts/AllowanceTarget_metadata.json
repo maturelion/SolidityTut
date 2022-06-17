@@ -1,0 +1,168 @@
+{
+	"compiler": {
+		"version": "0.6.5+commit.f956cc89"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_spender",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "completeSetSpender",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "target",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes",
+						"name": "callData",
+						"type": "bytes"
+					}
+				],
+				"name": "executeCall",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "resultData",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "newSpender",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_newSpender",
+						"type": "address"
+					}
+				],
+				"name": "setSpenderWithTimelock",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "spender",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "teardown",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "timelockExpirationTime",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "AllowanceTarget contract",
+			"methods": {
+				"executeCall(address,bytes)": {
+					"details": "Execute an arbitrary call. Only an authority can call this.",
+					"params": {
+						"callData": "The call data.",
+						"target": "The call target."
+					},
+					"returns": {
+						"resultData": "The data returned by the call."
+					}
+				}
+			}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/AllowanceTarget.sol": "AllowanceTarget"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Address.sol": {
+			"keccak256": "0xf95369d6a221c8336a180ce1443eac78e7adec6a3439ccae28ee92c62bcc3eb3",
+			"urls": [
+				"bzz-raw://59583ae892835abcc1e49d342e417d4d43d1738a55d2aae3729ce0b808855392",
+				"dweb:/ipfs/QmUpDN4t2fP5BavNmWyN3E5JJj9EULS5cNmi37FCGbcBmV"
+			]
+		},
+		"contracts/AllowanceTarget.sol": {
+			"keccak256": "0x7439bd74c77a81c370c16685c1dfc491631983c363938eaf278f38ba5221fff8",
+			"urls": [
+				"bzz-raw://cf9b2f8c403b0bca8fe6bc2876b04b4aec2ba485d0d6321ccbf1a4b5d8116ec8",
+				"dweb:/ipfs/QmRNGhaZex5orGNZ65Pau7wK3H1nZ8znaSdLqozsMJTfn7"
+			]
+		},
+		"contracts/IAllowanceTarget.sol": {
+			"keccak256": "0x78e1c9a2f4842cbe9a4b97732130f642bcd97f026bee8e57feecbaf0138df67a",
+			"urls": [
+				"bzz-raw://9ba32b6ef23331eeb3acd3a457c7c18cca9708d5fedd8a01532c2b9655dcc1a1",
+				"dweb:/ipfs/Qmcs1aRs3LwwDNpL5jf7PsxDCdKGKCBeHejGKbzfBRRhSb"
+			]
+		}
+	},
+	"version": 1
+}
